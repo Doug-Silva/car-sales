@@ -6,7 +6,7 @@
   </div><br>
 
   <h1>Car Sales</h1>
-  <p>Página web com um catálogo de carros a venda, desenvolvida em HTML e CSS</p>
+  <p>Página web com um catálogo de carros a venda, desenvolvido em HTML e CSS</p>
 
   <div>
     <a href="https://github.com/Doug-Silva/car-sales/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
