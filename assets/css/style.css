@@ -179,3 +179,63 @@ section .filter-card {
     margin-top: 200px;
     padding-bottom: 20px;
 }
+
+section .card-wrapper{
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+}
+
+section .card-item{
+    height: 400px;
+    background: var(--gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-content{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item img{
+    width: 85%;
+}
+
+.card-item h4{
+    width: 90%;
+}
+
+.card-item p{
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+}
+
+.card-item button{
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--purple);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.card-item button:hover{
+    background: #dedede;
+    color: var(--purple);
+}
