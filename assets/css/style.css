@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* RESET CSS */
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -10,25 +10,25 @@
     font-family: "Roboto", sans-serif;
 }
 
-:root{
+:root {
     --yellow: #ecb000;
     --purple: #3a1a54;
     --gray: #ededed;
 }
 
 html,
-body{
+body {
     width: 100%;
     overflow-x: hidden;
 }
 
-header{
+header {
     width: 100%;
     height: 500px;
     background: var(--yellow);
 }
 
-.content{
+.content {
     max-width: 1000px;
     min-width: 300px;
     margin: 0 auto;
@@ -37,7 +37,7 @@ header{
     padding: 10px;
 }
 
-nav{
+nav {
     width: 100%;
     height: 125px;
     display: flex;
@@ -46,33 +46,33 @@ nav{
     justify-content: space-between;
 }
 
-.brand{
+.brand {
     font-size: 24px;
     color: var(--purple);
     cursor: pointer;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     padding: 10px;
     cursor: pointer;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--purple);
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #00285f83;
 }
 
-nav ul button{
+nav ul button {
     border: 1px solid var(--purple);
     background: transparent;
     padding: 8px 40px;
@@ -83,8 +83,99 @@ nav ul button{
     border-radius: 4px;
 }
 
-nav ul button:hover{
+nav ul button:hover {
     transition: background, color 0.6s;
     background: var(--purple);
     color: #fff;
+}
+
+.content .header-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background: var(--purple);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.header-block img {
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.header-block .text {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+}
+
+.header-block .text h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+
+.header-block .text p {
+    max-width: 280px;
+    color: #fff;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.4s;
+}
+
+/* PRODUCT CATALOG */
+section .catalog {
+    width: 100vw;
+    padding: 100px;
+}
+
+section .filter-card {
+    width: 980px;
+    height: 150px;
+    background: var(--gray);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+}
+
+.search-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    background: var(--purple);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+}
+
+.search-button:hover {
+    background: #dedede;
+    color: var(--purple);
+}
+
+.title-wrapper-catalog {
+    margin-top: 200px;
+    padding-bottom: 20px;
 }
