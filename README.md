@@ -19,7 +19,7 @@
 </div>
 
   ## 🚀 Iniciar
-  Para iniciar o projeto, basta abrir o arquivo "index.html" em seu navegador preferido.
+  Link do site no Netlify: https://car-sales.netlify.app
   
   ## 🔨 Seja um dos contribuidores<br>
   Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
